@@ -1,0 +1,17 @@
+1. Version : Zulu JDK 8u192
+  - If you hava a java already installed in your computer, it is recommended to remove the java
+  then re-install this version (Zulu JDK 8u192)
+  - to remove java, use java Uninstall tools. 
+  It can be downloaded here : https://www.java.com/en/download/uninstalltool.jsp
+
+2. Download Java
+  - for 32 bit, go to here, https://cdn.azul.com/zulu/bin/zulu8.33.0.1-jdk8.0.192-win_i686.zip
+  - for 64 bit, go to here, https://cdn.azul.com/zulu/bin/zulu8.33.0.1-jdk8.0.192-win_x64.msi
+  
+3. Setup Environment variables  
+  - JAVA_HOME
+  - PATH
+  - etc.
+  
+4. Test 
+  - java -version, in your command line.
