@@ -1,0 +1,87 @@
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.FileInputStream;
+import java.io.InputStreamReader;
+import java.io.OutputStreamWriter;
+import java.util.Arrays;
+import java.util.Comparator;
+import java.util.StringTokenizer;
+
+//P-0058
+public class Solution {
+	static int T, N, Answer, max, size, treesize;
+	static long val;
+	static int[] tree;
+	static int[][] tank;
+	
+	public static void main(String[] args) throws Exception{
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
+		StringTokenizer st = new StringTokenizer(br.readLine().trim());
+		T = Integer.parseInt(st.nextToken());
+		
+		for (int tc = 1; tc <= T; tc++) {
+			st = new StringTokenizer(br.readLine().trim());
+			N = Integer.parseInt(st.nextToken());
+			tank = new int[N][3];
+			Answer = 0;
+			for (int i = 0; i < N; i++) {
+				st = new StringTokenizer(br.readLine().trim());
+				tank[i][0] = Integer.parseInt(st.nextToken());
+				tank[i][1] = Integer.parseInt(st.nextToken());
+				tank[i][2] = Integer.parseInt(st.nextToken());
+				
+				if (tank[i][0] > max) max = tank[i][0];				
+			}
+			
+			Arrays.sort(tank, 0, N, new Comparator<int[]>() {
+				@Override
+				public int compare(int[] o1, int[] o2) {
+					return o1[1] - o2[1];
+				}
+			});
+			
+			size = 1;
+			while (size < max) {
+				size = size*2;
+			}
+			
+			treesize = size*2;
+			tree = new int[treesize+1];
+			
+			for (int i = 0; i < N; i++) {
+				val = 0;
+				val = sum(1, max, 1, tank[i][0], 1);
+				
+				Answer += (tank[i][2]*val);
+				update(1, max, 1, tank[i][0], 1);
+			}
+			
+			bw.write("#"+tc+" "+Answer+"\n");
+			bw.flush();
+//		System.out.println("#"+tc+""+Answer);
+		}//test case
+		bw.close();
+		br.close();
+	}//main
+	
+	private static void update(int start, int end, int node, int point, int val) {
+		if (start > point || end < point) return;
+		tree[node] += val;
+		if(start != end) {
+			int mid = (start+end) / 2;
+			update(start, mid, node*2, point, val);
+			update(mid+1, end, (node*2)+1, point, val);
+		}
+	}
+	
+	private static long sum(int start, int end, int left, int right, int node) {
+		if (node >= treesize) return 0;
+		if (end < left || start > right) return 0;
+		if (left <= start && end <= right) return tree[node];
+		
+		int mid = (start + end)/2;
+		return sum(start, mid, left, right, node*2)+sum(mid+1, end, left, right, (node*2)+1);
+	}
+
+}//Solution
