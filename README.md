@@ -46,4 +46,4 @@
   7.3 그람 스캔(Graham's Scan)
 
 8.문자열
-  8.1 KMP 알고리즘(Knuth-Moriss-Pratt Algorithm)
+  8.1 KMP 알고리즘(Knuth-Moriss-Pratt Algorithm) 
