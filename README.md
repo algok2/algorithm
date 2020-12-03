@@ -41,9 +41,9 @@
    6.2 LCS(Longest Common Subsequence)
    
 7.기하
-   7.1 CCW 판별법(CounterClockWise)
-   7.2 선분교차 판별법(Line-Line Intersection)
-   7.3 그람 스캔(Graham's Scan)​
+  7.1 CCW 판별법(CounterClockWise)
+  7.2 선분교차 판별법(Line-Line Intersection)
+  7.3 그람 스캔(Graham's Scan)
 
 8.문자열
-   8.1 KMP 알고리즘(Knuth-Moriss-Pratt Algorithm)
+  8.1 KMP 알고리즘(Knuth-Moriss-Pratt Algorithm)
