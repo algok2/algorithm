@@ -1,4 +1,4 @@
-# algorithm
+## algorithm
 
 # 1. 자료구조
    1.1 우선순위큐(Priority Queue)
