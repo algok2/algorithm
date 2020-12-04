@@ -13,10 +13,10 @@
    2.2 합병 정렬(Merge Sort)
    2.3 퀴 정렬(Quick Sort)​
 
-## 3. 그래프
-   3.1 깊이 우선 탐색(DFS)
-   3.2 너비 우선 탐색(BFS)
-   3.3  다익스트라 알고리즘(Dijkstra Algorithm)
+## 3. 그래프(Graph)
+   3.1 깊이 우선 탐색(DFS: Depth-First Search)
+   3.2 너비 우선 탐색(BFS: Breadth-First Search)
+   3.3 다익스트라 알고리즘(Dijkstra Algorithm)
    3.4 플로이드-워셜 알고리즘(Floyd-Warshall Algorithm)
    3.5 벨만-포드 알고리즘(Bellman-Ford-Moore Algorithm)
    3.6 유니온-파인드 자료구조(Union-Find Data Structure)
@@ -36,7 +36,7 @@
    5.4 비트마스크(Bitmask)
    5.5 해싱(Hashing)
 
-## 6.동적계획법
+## 6.동적계획법 (DP: Dynamin Programming)
    6.1 LIS(Longest Increasing Subsequence)
    6.2 LCS(Longest Common Subsequence)
    
