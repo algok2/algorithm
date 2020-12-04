@@ -1,7 +1,7 @@
 # algorithm
 
 ## 1. 자료구조
-   1.1 우선순위큐(Priority Queue)
+   1.1 우선순위큐(Priority Queue)<br>
    1.2 트리(Tree)
    1.3 완전이진트리(Complete Binary Tree)
    1.4 인텍스트리(Indexed Tree)
