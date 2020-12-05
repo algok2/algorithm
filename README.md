@@ -24,7 +24,7 @@
    3.8 최소공통조상(LCA : Lowest Common Ancestor)<br>
    3.9 위상 정렬(Topological Sort)<br>
 
-## 4. 수학 (Math.)
+## 4. 수학 (Mathematics)
    4.1 순열과 조합(Permutation And Combination)<br>
    4.2 유클리드 호제법(Euclidean Algorithm)<br>
    4.3 에라토스테네스의 체(Sieve of Eratosthenes)<br>
