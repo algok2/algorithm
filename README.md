@@ -37,8 +37,8 @@
    5.5 해싱(Hashing)<br>
 
 ## 6.동적계획법(DP: Dynamin Programming)
-   6.1 LIS(Longest Increasing Subsequence)<br>
-   6.2 LCS(Longest Common Subsequence)<br>
+   6.1 최장 증가 부분 문자열(LIS: Longest Increasing Subsequence)<br>
+   6.2 최장 공통 부분 문자열(LCS: Longest Common Subsequence)<br>
    
 ## 7.기하(Geometry)
   7.1 CCW 판별법(CounterClockWise)<br>
