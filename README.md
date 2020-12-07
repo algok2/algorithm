@@ -11,7 +11,7 @@
 
    2.1 정렬 API(Sort API)<br>
    2.2 합병 정렬(Merge Sort)<br>
-   2.3 퀴 정렬(Quick Sort)<br>
+   2.3 퀵 정렬(Quick Sort)<br>
 
 ## 3. 그래프(Graph)
    3.1 깊이 우선 탐색(DFS: Depth-First Search)<br>
