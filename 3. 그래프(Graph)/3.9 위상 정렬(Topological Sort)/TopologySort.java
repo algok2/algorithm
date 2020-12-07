@@ -4,6 +4,7 @@ import java.util.ArrayDeque;
 import java.util.ArrayList;
 import java.util.Deque;
 
+//https://m.blog.naver.com/PostView.nhn?blogId=ndb796&logNo=221236874984&referrerCode=0&searchKeyword=%EC%9C%84%EC%83%81%EC%A0%95%EB%A0%AC
 public class TopologySort {
 	static int n;
 	static int[] inDegree;
@@ -54,12 +55,12 @@ public class TopologySort {
 		
 		for (int i = 1; i <= n; i++) {
 			if (q.isEmpty()) {
-				System.out.println("»çÀÌÅ¬ÀÌ ¹ß»ý Çß½À´Ï´Ù.");
+				System.out.println("ì‚¬ì´í´ì´ ë°œìƒ í–ˆìŠµë‹ˆë‹¤.");
 				return;
 			}
 			
-			int x = q.poll(); //Å½»ö  °á°ú ÀúÀå
-			result[i] = x; //Å½»ö  °á°ú ÀúÀå
+			int x = q.poll(); //íƒìƒ‰  ê²°ê³¼ ì €ìž¥
+			result[i] = x; //íƒìƒ‰  ê²°ê³¼ ì €ìž¥
 			
 			for (int index = 0; index < arrList[x].size(); index++) {
 				int y = arrList[x].get(index);
