@@ -8,3 +8,7 @@
   - Windows -> Preferences -> Java -> Editor -> Content Assist -> Auto Activation에서
     Enable auto activation : 체크
     Auto activation triggers for java : .(abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ
+4. 폰트 설정
+  - Windows -> Preferences -> General -> Appearance -> Colors and Fonts 에서
+    Basic -> Text Font 선택 후 Edit 클릭
+    글꼴을 D2Coding 선택하고 크기는 12 선택
