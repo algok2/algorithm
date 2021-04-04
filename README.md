@@ -4,7 +4,7 @@
    1.1 우선순위큐(Priority Queue)<br>
    1.2 트리(Tree)<br>
    1.3 완전이진트리(Complete Binary Tree)<br>
-   1.4 인텍스트리(Indexed Tree)<br>
+   1.4 인덱스트리(Indexed Tree)<br>
    1.5 BIT(Binary Indexed Tree, Fenwick Tree)<br>
 
 ## 2. 정렬(Sorting)
