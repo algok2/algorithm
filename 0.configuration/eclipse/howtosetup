@@ -4,3 +4,7 @@
   - for 32 bit : https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2018-09/R/eclipse-java-2018-09-win32.zip
   - for 64 bit : https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2018-09/R/eclipse-java-2018-09-win32-x86_64.zip
   
+3. 자동완성
+  - Windows -> Preferences -> Java -> Editor -> Content Assist -> Auto Activation에서
+    Enable auto activation : 체크
+    Auto activation triggers for java : .(abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ
