@@ -1,4 +1,4 @@
-How to order 2-dimension array according to k-th column in ascending order.
+How to order a 2-dimensional array according to the k-th column in ascending order.
 
 Arrays.sort(arr, new Comparator(int[]){
   @Override
