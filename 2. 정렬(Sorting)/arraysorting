@@ -1,0 +1,8 @@
+How to order 2-dimension array according to k-th column in ascending order.
+
+Arrays.sort(arr, new Comparator(int[]){
+  @Override
+  public int comparator(int[] arr1, int[] arr2){
+    return arr1[k-1] - arr2[k-1]
+  }
+});
