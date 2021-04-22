@@ -1,2 +1,5 @@
 
 lcm(a,b) = (a*b)/gcd(a,b)
+
+※lcm : least common multiple
+  gcd : greatest common divisor
