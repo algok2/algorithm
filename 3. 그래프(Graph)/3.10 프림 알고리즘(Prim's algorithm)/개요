@@ -1,0 +1,13 @@
+- 프림 알고리즘: 최소 신장 트리를 구현하는 알고리즘 중 하나
+
+- 특징
+  . 정점 탐색 기반
+  . 정점(Node or Vector)이라는 객체를 Comparable 인터페이스를 사용하여 사용.
+    ArrayList<Node>[] adjList = new ArrayList[N+1];
+    for(int i=1 : i <= N : i++) {
+      adjList[i] = new ArrayList<>;
+    }
+        
+  . PriorityQueue를 사용
+    PriorityQueue<Node> pq = new PriorityQueue<>();
+    
